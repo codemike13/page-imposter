@@ -1,0 +1,120 @@
+body {
+  text-align: center;
+  position: relative;
+  height: 788px;
+  background-color: rgb(247, 247, 247);
+}
+.duck-container {
+  height: 300px;
+  width: 600px;
+  display: inline-block;
+  text-align: center;
+  padding-top: 143px;
+}
+.duck-div {
+  position:relative;
+
+  width: 327px;
+  background-image: url("/duck.png");
+  height: 230px;
+  background-size: cover;
+  right:-125px;
+  /* text-align: center; */
+  display: inline-block;
+}
+
+.bird-div{
+  
+}
+
+p {
+  padding-top: 50px;
+  display: inline-block;
+}
+
+.inputDiv {
+  border: 1px solid rgba(217, 217, 217, 0.9);
+  position: relative;
+  right:-125px;
+  border-radius: 5px;
+  display: inline-block;
+  width: 589px;
+  height: 45px;
+  margin-top: 19px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+  background: white;
+}
+input {
+  border: none;
+outline-width:0;
+  width: 390px;
+  height: 41px;
+  margin-left: 14px;
+  float: left;
+  font-size: 18px
+}
+
+.spreadDuck {
+  margin-top: 22px;
+  font-size: 17.2px;
+  font-weight: 350;
+  font-family: "DDG_ProximaNova", "DDG_ProximaNova_UI_0", "DDG_ProximaNova_UI_1",
+    "DDG_ProximaNova_UI_2", "DDG_ProximaNova_UI_3", "DDG_ProximaNova_UI_4",
+    "DDG_ProximaNova_UI_5", "DDG_ProximaNova_UI_6", "Proxima Nova",
+    "Helvetica Neue", "Helvetica", "Segoe UI", "Nimbus Sans L",
+    "Liberation Sans", "Open Sans", sans-serif;
+  letter-spacing: 0.22px;
+  color: rgba(151, 151, 151, 0.9);
+  padding-left: 2px;
+}
+
+a {
+  color: rgb(67, 149, 212);
+  text-decoration: none;
+}
+
+.mag {
+  border: none;
+  width: 49px;
+  height: 43px;
+  background-image: url("/magnifyingGlass.png");
+  background-size: contain;
+  float: right;
+ 
+}
+.flagContainer{
+    margin-top:100px;
+    display: inline-table;
+}
+
+/* img {
+    width: 80px;
+    height: 65px;
+    margin-top:2px;
+    
+    right:200px;
+   
+} */
+.flag {
+    width: 100px;
+    height: 100px;
+    
+    position: relative;
+    
+  bottom:-80px;
+
+    display:inline-block;
+}
+
+.bird{
+
+   Width: 254px;
+    height: 70px;
+    float:right
+    /* padding:5px;
+    position: relative;
+    left:-35px;
+    bottom:-15px */
+    /* display:inline-block; */
+    
+}
